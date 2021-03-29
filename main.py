@@ -71,32 +71,7 @@ for i in range(total_num):
             points = [list_name[1], list_name[2]], [list_name[3], list_name[4]]
             label = list_name[5]
 
-    # 写入json
-    # Date = defaultdict(list)
-    # Date["label"].append(label)
-    # Date["points"].append(points)
-    # Date["group_id"].append('null')
-    # Date["shape_type"].append("rectangle")
-    # Date["flags"].append({})
-    #
-    # test_dict = {
-    #     'version': "4.5.7",
-    #     'falgs': {},
-    #
-    #     'shapes': [Date],
-    #
-    #     'imagePath': jpg_name,
-    #     'imageData': base64_data_str,
-    #     'imageHeight': h,
-    #     'imageWidth': w,
-    #
-    # }
-
-    # json_str = json.dumps(test_dict, indent=2)
-    # with open(label_name_str.strip("['']") + '.json', 'w') as json_file:
-    #     json_file.write(json_str)
-    # os.system("python remove.py")
-
+    
             jdict = (
                 {
                 "version": "4.5.7",
