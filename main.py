@@ -7,8 +7,6 @@ import shutil
 from tkinter import filedialog,messagebox
 
 
-
-
 imagePath = filedialog.askdirectory()#选择图片路径
 
 imagePath_src = imagePath
